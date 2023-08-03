@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Work</title>
+</head>
+<style>
+    .contain3 {
+        position: relative;
+        background-color: #eee;
+    }
+
+    .main3 {
+        padding: 20px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 700px;
+    }
+
+    .main3>h1 {
+        padding: 10px 0;
+    }
+
+    .picwork {
+        width: 250px;
+        height: fit-content;
+        flex-shrink: 0;
+        margin: 0 10px 15px 0;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .picwork img {
+        width: 100%;
+    }
+
+    a {
+        display: block;
+        text-decoration: none;
+        color: black;
+    }
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 12px;
+        height: 60px;
+        margin: 24px;
+    }
+
+    .work {
+        border-bottom: 1px solid #a1a1a1;
+        display: flex;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 15px;
+    }
+
+    .sinfo {
+        margin-bottom: 10px;
+    }
+
+    .year {
+        display: inline-block;
+        background-color: #222831;
+        color: white;
+        padding: 3px 6px;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+
+    p[class=type] {
+        display: inline-block;
+        color: #a1a1a1;
+    }
+
+    footer {
+        background-color: #eee;
+        position: relative;
+        padding: 30px;
+    }
+
+    .end {
+        /* background-color: #fccb2b; */
+        width: 300px;
+        padding: 20px;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .end img {
+        width: 20px;
+        margin: 10px 13px;
+    }
+
+    .end p {
+        font-size: 10px;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        font-size: 30px;
+        margin-top: 2rem;
+    }
+
+    .logo a {
+        display: block;
+        border: 2px white solid;
+        padding: 2px 6px;
+        border-radius: 50%;
+    }
+
+    @media (max-width:759px) {
+        .main3 {
+            width: 80%;
+        }
+
+        .main3>p {
+            text-align: center;
+        }
+
+        .fwork {
+            flex-flow: column nowrap;
+            align-items: flex-start;
+            justify-content: flex-start;
+            padding-bottom: 10px;
+        }
+
+        .picwork {
+            width: 100%;
+        }
+    }
+</style>
+</head>
+
+<body>
+    <nav>
+        <a href="work.html">Works</a>
+        <a href="blog.html">Blog</a>
+        <a href="index.html">Contact</a>
+    </nav>
+    <main>
+        <div class="contain3">
+            <div class="main3">
+                <h1>Work</h1>
+                <div class="work">
+                    <div class="picwork">
+                        <img src="./pic/apple.png" alt="">
+                    </div>
+                    <div class="works">
+                        <a href="./work_detail.html">
+                            <h2>Apple</h2>
+                        </a>
+                        <p class="year">2018</p>
+                        <p class="type">Dashboard</p>
+                        <p class="sinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia facilis
+                            iusto dolores cupiditate ipsa impedit recusandae asperiores qui vel atque quisquam
+                            doloribus,
+                            dignissimos dolorem.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="picwork">
+                        <img src="./pic/google.png" alt="">
+                    </div>
+                    <div class="works">
+                        <a href="./work_detail.html">
+                            <h2>Google</h2>
+                        </a>
+                        <p class="year">2020</p>
+                        <p class="type">Illustration</p>
+                        <p class="sinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia facilis
+                            iusto dolores cupiditate ipsa impedit recusandae asperiores qui vel atque quisquam
+                            doloribus,
+                            dignissimos dolorem.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="picwork">
+                        <img src="./pic/micro.jpg" alt="">
+                    </div>
+                    <div class="works">
+                        <a href="./work_detail.html">
+                            <h2>Microsoft</h2>
+                        </a>
+                        <p class="year">2022</p>
+                        <p class="type">Typography</p>
+                        <p class="sinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia facilis
+                            iusto dolores cupiditate ipsa impedit recusandae asperiores qui vel atque quisquam
+                            doloribus,
+                            dignissimos dolorem.</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="picwork">
+                        <img src="./pic/Component.jpg" alt="">
+                    </div>
+                    <div class="works">
+                        <a href="./work_detail.html">
+                            <h2>Layout Design</h2>
+                        </a>
+                        <p class="year">2023</p>
+                        <p class="type">Component,Design</p>
+                        <p class="sinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse mollitia facilis
+                            iusto dolores cupiditate ipsa impedit recusandae asperiores qui vel atque quisquam
+                            doloribus,
+                            dignissimos dolorem.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="end">
+                <div class="logo">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <div class="cr">
+                    <p>Copyright &copy;2020 All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
